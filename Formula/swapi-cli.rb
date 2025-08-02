@@ -5,8 +5,8 @@ class SwapiCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dnl-jst/swapi-cli/releases/download/v1.1.16/swapi-cli-macos"
-      sha256 "e26eed7249052fee7d6fb62b877ce4ffce79fe08c0f3f978a96e8f7150c07941"
+      url "https://github.com/dnl-jst/swapi-cli/releases/download/v1.1.18/swapi-cli-macos"
+      sha256 "1309b62b55ad83615bfd988dd04f910f5ed6f32c815fdd50e1f3f7a3169be2fd"
     else
       url "https://github.com/dnl-jst/swapi-cli/releases/download/v1.0.2/swapi-cli-macos"
       sha256 "9dc8e9a220c56f7be453e03e25474037bcb832a56792f4797388809d4908f363"
